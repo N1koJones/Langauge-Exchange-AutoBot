@@ -3,9 +3,23 @@ A Discord bot used in the Japanese-English Language Exchange Discord server to a
 
 This project will aim to automate the announcement process of the weekly events held by the group. 
 
+# Datapoints
+### input [channel]
+### output [channel]
+### superuser [role]
+### queue [json] 
+see backend
+### events [json] 
+see backend
+### announcement1 [json] 
+(unknown)
+### announcement2 [json] 
+(unknown)
+### annoucnement3 [json] 
+(unknown)
+
 # Commands (tennative)
 ## Pretext for Commands (tennative): ~
-
 
 ## Setup
 These are administration tools that will be used on startup and changing factors in the settings.
