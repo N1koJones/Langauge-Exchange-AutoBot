@@ -10,12 +10,15 @@ This project will aim to automate the announcement process of the weekly events 
 ## Setup
 These are administration tools that will be used on startup and changing factors in the settings.
 
-### setup [role]
+### setup
 This will start the setup process and restrict setup access to only the role given. (Can be overridden by an admin)
 Setup process consists of seeing all input and output channels, queue, etc. after each input
 
 ### endsetup
 This will stop the setup process and constant response of listing items as they are added/removed.
+
+### setsuperuser [role] (admin only)
+This will set who can use backend commands such as settings
 
 ### assignout
 This will assign the channel that announcements will be output to. (Can only be one channel at a time)
