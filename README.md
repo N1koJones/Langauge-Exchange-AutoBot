@@ -26,6 +26,12 @@ This will assign the channel where inputs can be made. (This can be multiple cha
 ### removein
 This will remove the current channel from bot input.
 
+### setevent [day_of_week] [UTC]
+This will add an event date and time when it will occur. 
+
+### setannouncement [day_of_week]
+This will set the day of the week that all of the event announcements will be made
+
 
 ## Post-Setup
 This will be more commonly used commands during setup.
@@ -35,7 +41,6 @@ This will queue an event topic and add it to the JSON file as jp and en respecti
 
 ### viewqueue
 This will output the current queue in the channel where the command was made.
-
 
 
 ## Backend (tennative)
