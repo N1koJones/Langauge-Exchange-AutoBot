@@ -3,15 +3,16 @@ A Discord bot used in the Japanese-English Language Exchange Discord server to a
 
 This project will aim to automate the announcement process of the weekly events held by the group. 
 
+# Commands (tennative)
 ## Pretext for Commands (tennative): ~
-## Commands (tennative)
+
 
 ## Setup
 These are administration tools that will be used on startup and changing factors in the settings.
 
 ### setup [role]
 This will start the setup process and restrict setup access to only the role given. (Can be overridden by an admin)
-Setup process consists of seeing all input and output channels, queue, etc.
+Setup process consists of seeing all input and output channels, queue, etc. after each input
 
 ### endsetup
 This will stop the setup process and constant response of listing items as they are added/removed.
@@ -34,6 +35,7 @@ This will queue an event topic and add it to the JSON file as jp and en respecti
 
 ### viewqueue
 This will output the current queue in the channel where the command was made.
+
 
 
 ## Backend (tennative)
