@@ -1,5 +1,8 @@
 # Langauge-Exchange-AutoBot
+## Sleeping Bot
+
 A Discord bot used in the Japanese-English Language Exchange Discord server to automate events and announcements.
+The name is related to the original organizer of the group who goes by the alias "Sleeping". He is still an active member but others have since assisted with organizing and upkeep of the group.
 
 This project will aim to automate the announcement process of the weekly events held by the group. 
 
@@ -20,7 +23,7 @@ This project will aim to automate the announcement process of the weekly events 
 - Assigns the only channel that commands for this bot will be accepted in
 
 ### /assignout [channel]
-- Assigns the only channel that announcements will be put.
+- Assigns the **only** channel that announcements will be put.
 
 ### /superuser [role]
 - Assign the role(s) that can use bot commands.
